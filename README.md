@@ -1,4 +1,4 @@
-# Classy-helper
+# help
 ##### Its a web based cardinal keeper for people with bunch of accounts
 ##### Works with xampp / lampp on both (linux & windows)
 ##### It gives possible number of fields for accounts to be added !
