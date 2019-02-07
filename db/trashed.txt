@@ -1,0 +1,4 @@
+/*
+(Y/M/D) 2019/02/07 Thursday (H/M/S) 09:08:29pm
+*/
+  $con=mysqli_connect("localhost","root","","ghona");

@@ -1,0 +1,128 @@
+body{
+	color:pink;
+	background:saddlebrown;
+	margin-top:10px;
+}
+#trashcan{
+	color:black;
+	background:khaki;
+}
+#trashcan:hover{
+	color:white;
+	background:black;
+}
+#snippet{
+	color:black;
+	background:khaki;
+}
+#snippet:hover{
+	color:white;
+	background:black;
+}
+#welcome{
+	color:black;
+	background:khaki;
+}
+#welcome:hover{
+	color:white;
+	background:black;
+}
+#active{
+	color:white;
+	background:green;
+}
+#active:hover{
+	color:white;
+	background:green;
+}
+#demobtn{
+	color:green;
+	background:yellow;
+}
+#demobtn:hover{
+	color:white;
+	background:purple;
+}
+.table{
+	color:yellow;
+}
+/* ALL TR STYLES DOWN */
+#godaddyheadings{
+	background:cornflowerblue;
+}
+#headings{
+	background:purple;
+}
+tr:hover{
+	background:#322525 !important;
+	color:white;
+}
+tr{
+	background:maroon;
+}
+/* ALL TH STYLES DOWN */
+#headings > #gintiboxheading{
+	background: red;
+	color:yellow;
+}
+#headings > #gintiboxheading:hover{
+	background:violet;
+	color:purple;
+}
+#godaddyheadings > #gintiboxheading{
+	background: red;
+	color:yellow;
+}
+#godaddyheadings > #gintiboxheading:hover{
+	background:violet;
+	color:purple;
+}
+/* ALL TD STYLES DOWN */
+#gintibox{background:green;}#gintibox:hover{background:violet;}
+#sitebox{}#sitebox:hover{background:sienna;}
+#updatepencilgly{color:fuchsia;}#updatepencilgly:hover{color:chartreuse;}
+#sitetext{color:tomato;}#sitetext:hover{color:mintcream;}
+#mvtotrashgly{color:mediumturquoise;}#mvtotrashgly:hover{color:darkmagenta;}
+#usernamebox{}#usernamebox:hover{background:palevioletred;}
+#usernametext{color:peachpuff;}#usernametext:hover{color:azure;}
+#emailbox{}#emailbox:hover{background:teal;}
+#emailtext{color:lightcoral;}#emailtext:hover{color:darkred;}
+/* ALL PASSWORD FIELD STYLES DOWN */
+#passwordbox{}#passwordbox:hover{background:burlywood;}
+#passwordtext{
+	color:black;
+	font-size:3px;
+	font-style:italic;
+	font-weight:bold;
+}
+#passwordtext:hover{color:limegreen;}
+#domainbox{}#domainbox:hover{background:crimson;}
+#domaintext{color:palegreen; font-family:monospace;}#domaintext:hover{color:greenyellow;}
+#customernobox{}#customernobox:hover{background:darkolivegreen;}
+#customernotext{color:darkgoldenrod;}#customernotext:hover{color:navajowhite;}
+#firstnamebox{}#firstnamebox:hover{background:mediumseagreen;}
+#firstnametext{color:gainsboro; font-style:italic;}#firstnametext:hover{color:blanchedalmond;}
+#lastnamebox{}#lastnamebox:hover{background:snow;}
+#lastnametext{color:orchid; font-style:italic;}#lastnametext:hover{color:chartreuse;}
+#phonenobox{}#phonenobox:hover{background:chocolate;}
+#phonetext{color:darkseagreen;}#phonetext:hover{color:lightpink;}
+#dobbox{}#dobbox:hover{background:palevioletred;}
+#dobtext{color:greenyellow;}#dobtext:hover{color:bisque;}
+#genderbox{}#genderbox:hover{background:orangered;}
+#gendertext{color:pink;}#gendertext:hover{color:floralwhite;}
+sup{color:darkkhaki;}
+#lasthrofsubmitform{margin-top:-10px;} /* Last Horizontal Rule of Form in WELCOME */
+#totalcardinals{color:khaki;}
+#norecordfoundinhelpdesk{text-align:center;}
+#norecordfoundinhelpdeskimage{width:20%;}
+#nosnippetfound{text-align:center;}
+#nosnippetsimage{width:20%;}
+#notrashfound{text-align:center; margin-top:10%;}
+#notrashfoundimage{height:100%;}
+#tabledropperbtn{background:khaki; color:black; margin-top:-20px;}
+#tabledropperbtn:hover{background:red; color:yellow;}
+#imessage{background:indigo; color:floralwhite; border:0px;}
+#smessage{background:green; color:floralwhite; border:0px;}
+#snippettable{margin-top:-17px; text-align:center;}
+.jumbotron{background:black;}
+#snippng > a > img{width:50px;}
