@@ -126,9 +126,9 @@ No DISADVANTAGE !
 ##### Q: What if my windows got broken?
 ```
 * Use any live boot disk and copy 'help' folder to somewhere safe.
-* Install Windows > Install Xampp 
-* START SERVER
-* In that 'help` folder Open File 'db/helpdeskdb.txt'
+* Install Windows > Install Xampp > install help
+* START SERVER > visit localhost/help
+* In your old 'help` folder Open File 'db/helpdeskdb.txt'
 * Copy Every thing !
 * Go to Xampp/htdocs/
 * Create New Folder 'help'
@@ -146,7 +146,7 @@ pasted content
 * Delete that 'helpdeskdb.php' file.
 * Repeat The Same With 'db/trashed.txt' file.
 * Get Your Snippets Text and Passwords From 'db/history.txt'
-* install help > Go to 'Add Snippet' Section.
+* localhost/help > Go to 'Add Snippet' Section.
 * Fill Fields (Modify Text) and Submit.
 ```
 # Hope So You Will Love It ! its currently (STABLE)
