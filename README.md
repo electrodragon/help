@@ -43,6 +43,7 @@ and you may not have all those possible fields in welcome section to keep that a
 Snippet Section comes in handy. OR you can consider it as a MEMO PAD !
 * It includes a text area field and 6 password fields.
 * You can add the account details in text area and use password fields if you want.
+> TO FURNISH OUTPUT USE HTML,CSS & BOOTSTRAP IN TEXTAREA.
 #### A `snippets` folder is present in program
 > It has snap.txt files upto 1-to-50.
 > Whenever you add a snap the password fields updates in database while just text saves in those snap files.
