@@ -26,25 +26,52 @@
 ?>
 
 <div class="container">
-	<div class="row">
-		<div class="col-sm-12 text-center">
-      <form style="color:white;" method="post">
-        <input type="text" placeholder="Site" name="sites" value="<?php echo $d[1] ?>" required>
-        <input type="text" placeholder="Username" name="username" value="<?php echo $d[2] ?>">
-        <input type="email" placeholder="email" name="email" value="<?php echo $d[3] ?>">
-        <input type="text" placeholder="password" name="pass" value="<?php echo $d[4] ?>">
-        <input type="domain" placeholder="Domain / Note" name="domain" value="<?php echo $d[5] ?>">
-        <input type="text" placeholder="customer no / Note" name="cno" value="<?php echo $d[6] ?>">
-        <input type="text" placeholder="First Name" name="fn" value="<?php echo $d[7] ?>">
-        <input type="text" placeholder="Last Name" name="ln" value="<?php echo $d[8] ?>">
-        <input type="text" placeholder="Phone No" name="phone" value="<?php echo $d[9] ?>">
-        <input type="text" placeholder="DOB" name="dob" value="<?php echo $d[10] ?>">
-        <input type="text" placeholder="Gender" name="gender" value="<?php echo $d[11] ?>">
-        <input type="submit" name="updatebtn" Value="Update">
-      </form>
-      <hr>
-		</div>
-	</div>
+	<form class="form-group" method="post">
+	  <div class="row">
+	    <div class="col-sm-12 form-group">
+	      <input class="form-control" type="text" placeholder="Site" name="sites" value="<?php echo $d[1] ?>" required>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-3 form-group">
+	      <input class="form-control" type="text" placeholder="Username" name="username" value="<?php echo $d[2] ?>">
+	    </div>
+	    <div class="col-sm-3 form-group">
+	      <input class="form-control" type="email" placeholder="email" name="email" value="<?php echo $d[3] ?>">
+	    </div>
+	    <div class="col-sm-2 form-group">
+				<input class="form-control" type="text" placeholder="password" name="pass" value="<?php echo $d[4] ?>">
+	    </div>
+	    <div class="col-sm-2 form-group">
+				<input class="form-control" type="domain" placeholder="Domain / Note" name="domain" value="<?php echo $d[5] ?>">
+	    </div>
+	    <div class="col-sm-2 form-group">
+				<input class="form-control" type="text" placeholder="customer no / Note" name="cno" value="<?php echo $d[6] ?>">
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-3 form-group">
+				<input class="form-control" type="text" placeholder="First Name" name="fn" value="<?php echo $d[7] ?>">
+	    </div>
+	    <div class="col-sm-3 form-group">
+				<input class="form-control" type="text" placeholder="Last Name" name="ln" value="<?php echo $d[8] ?>">
+	    </div>
+	    <div class="col-sm-2 form-group">
+				<input class="form-control" type="text" placeholder="Phone No" name="phone" value="<?php echo $d[9] ?>">
+	    </div>
+	    <div class="col-sm-2 form-group">
+				<input class="form-control" type="text" placeholder="DOB" name="dob" value="<?php echo $d[10] ?>">
+	    </div>
+	    <div class="col-sm-2 form-group">
+				<input class="form-control" type="text" placeholder="Gender" name="gender" value="<?php echo $d[11] ?>">
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn btn-primary btn-md form-control" name="updatebtn" Value="Update">
+	    </div>
+	  </div>
+	</form>
 </div>
 
 <div class="container">
