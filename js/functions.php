@@ -107,7 +107,7 @@ function Fetch_All_helpdesk_data($con){
 	for($i=0; $i<=$rows; $i++){
 		$test=mysqli_fetch_array($query);
 		for($j=0; $j<=11; $j++){
-			$datahelpdesk[$i][$j]=$test[$j];
+			$datahelpdesk[$i][$j]= isset($test[$j]) ? $test[$j] : 0;
 		}
 	}
 	return $datahelpdesk;
@@ -119,7 +119,7 @@ function Fetch_All_helper_data($con){
 	for($i=0; $i<=$rows; $i++){
 		$test=mysqli_fetch_array($query);
 		for($j=0; $j<=1; $j++){
-			$datahelpdesk[$i][$j]=$test[$j];
+			$datahelpdesk[$i][$j]= isset($test[$j]) ? $test[$j] : 0;
 		}
 	}
 	return $datahelpdesk;
